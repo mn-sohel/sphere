@@ -49,7 +49,31 @@ const NewArrival = () => {
                 </div>
                 <div className="w-[940px]" >
                     <div>
-                        <ArrivalBox/>
+                        <ArrivalBox 
+                            loveIcon={true}
+                            extraRight={true}
+                            arrivalItemName="Xiphone 14 Pro Maxe"
+                            itemPrice={true}
+                            arrivalItemPrice="175.00"
+                            paraText={
+                            "Lorem ipsum dolor sit amet consectetur. Eleifend nec morbi tellus vitae leo nunc."
+                            }
+                            rating="5"
+                            totalRating="(121)"
+                            className={"mx-0  my-0.5"}
+                        />
+                        <ArrivalBox 
+                            loveIcon={true}
+                            arrivalItemName="Xiphone 13"
+                            itemPrice={true}
+                            arrivalItemPrice="100.00"
+                            paraText={
+                            "Lorem ipsum dolor sit amet consectetur. Eleifend nec morbi tellus vitae leo nunc."
+                            }
+                            rating="5"
+                            totalRating="(89)"
+                            className={" mx-0 my-0.5"}
+                        />
                     </div>
                 </div>
             </div>
