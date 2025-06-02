@@ -6,8 +6,8 @@ import ProvidedItem from './commonLayouts/ProvidedItem'
 const WhatWeProvide = () => {
   return (
     <div className='mt-[105px]'>
-            <img src="images/shape.png" alt="s" className='mb-[30px] ' />
         <Container>
+            <img src="images/shape.png" alt="s" className='mb-[30px] ml-[-120px]' />
             <div className='w-full mx-auto relative mb-[51px]' >
                 <img src="images/shape.png" alt="shape" className=' absolute top-[40px] right-[94px]' />
                 <h1 className=' text-center text-[#000] font-["Prompt"] text-[74px] font-extrabold leading-[125%]'>What <span className='text-[#5E1EE5]'>we</span> provide?</h1>
