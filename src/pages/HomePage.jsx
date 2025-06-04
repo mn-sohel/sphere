@@ -5,6 +5,8 @@ import WhatWeProvide from '../components/WhatWeProvide'
 import NewArrival from '../components/NewArrival'
 import Offer from '../components/Offer'
 import BestSeller from '../components/BestSeller'
+import Gateway from '../components/Gateway'
+import Footer from '../components/Footer'
 
 const HomePage = () => {
   return (
@@ -15,6 +17,8 @@ const HomePage = () => {
       <NewArrival/>
       <Offer/>
       <BestSeller/>
+      <Gateway/>
+      <Footer/>
     </>
   )
 }
